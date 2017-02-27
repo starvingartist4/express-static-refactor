@@ -18,9 +18,12 @@ Consolidate answers to the following questions in order to support our main obje
 
   - What kind of request does a browser make when you enter a URL into the address bar?
   - How does a browser know how to render html as html, rather than as plain text?
+        - Content-Type is set to html (express does this on your behalf)
   - What happens when the browser finds a `src` attribute in a `<script>` or `<image>` tag (or an `href` attribute in a `<link>` tag)?
   - What does the `express.static` middleware function do?
+  Indicate a path where to look when express gets a request for those files. (review!)
   - What key assumption does express.static make when it receives an otherwise unhandled GET request to '/'?
+  it goes into directory you set for static files by default.
 
 ## TODO
 
